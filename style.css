@@ -1,0 +1,67 @@
+body {
+    background: lightgray;
+    font-family: Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: white;
+    width: 500px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #b5b5b5;
+    display: flex;
+    gap: 16px;
+}
+.exclamation {
+    color: #4169E0;
+    font-size: 22px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(184, 202, 235);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.box-question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.question {
+    font-size: larger;
+    font-weight: bold;
+}
+.close-button {
+    color: gray;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: lightgray;
+    border: none;
+    padding: 3px;
+    flex-shrink: 0;
+
+}
+.continue-button {
+    background: #4169E0;
+    color: white;
+    padding: 8px 18px;
+    border: 1px solid #4169E0;
+    border-radius: 10px;
+}
+.cancel-button {
+    color: #4169E0;
+    padding: 8px 18px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+.text {
+    margin-bottom: 10px;
+}
